@@ -1,0 +1,26 @@
+# ninja log v6
+5	402	1732096586111098775	CMakeFiles/c___dateAndTime_.dir/main.cpp.o	68cc977206cc5642
+402	433	1732096586508215795	c___dateAndTime_	487fabe2d2fc4508
+4	82	1732100936442665740	CMakeFiles/c___dateAndTime_.dir/Run.cpp.o	7c6c20599be96add
+3	477	1732100936441405994	CMakeFiles/c___dateAndTime_.dir/main.cpp.o	68cc977206cc5642
+9	44	1732101046426423845	CMakeFiles/c___dateAndTime_.dir/Run.cpp.o	7c6c20599be96add
+8	445	1732101046425577223	CMakeFiles/c___dateAndTime_.dir/main.cpp.o	68cc977206cc5642
+4	402	1732101196048795053	CMakeFiles/c___dateAndTime_.dir/Date.cpp.o	951816a7b231c5ab
+402	493	1732101196446910419	c___dateAndTime_	9f68d8a75ac7c35e
+3	31	1732101227380527105	CMakeFiles/c___dateAndTime_.dir/Run.cpp.o	7c6c20599be96add
+31	64	1732101227408939230	c___dateAndTime_	9f68d8a75ac7c35e
+4	34	1732101387012911489	CMakeFiles/c___dateAndTime_.dir/Run.cpp.o	7c6c20599be96add
+34	67	1732101387043275661	c___dateAndTime_	9f68d8a75ac7c35e
+4	38	1732101516375182645	CMakeFiles/c___dateAndTime_.dir/Run.cpp.o	7c6c20599be96add
+4	426	1732101516374696978	CMakeFiles/c___dateAndTime_.dir/main.cpp.o	68cc977206cc5642
+4	435	1732101516375057436	CMakeFiles/c___dateAndTime_.dir/Date.cpp.o	951816a7b231c5ab
+435	471	1732101516805928304	c___dateAndTime_	9f68d8a75ac7c35e
+4	37	1732101607408710638	CMakeFiles/c___dateAndTime_.dir/Run.cpp.o	7c6c20599be96add
+3	388	1732101607408379637	CMakeFiles/c___dateAndTime_.dir/main.cpp.o	68cc977206cc5642
+388	418	1732101607792565155	c___dateAndTime_	9f68d8a75ac7c35e
+5	39	1732101893007631361	CMakeFiles/c___dateAndTime_.dir/Run.cpp.o	7c6c20599be96add
+4	353	1732101893006360777	CMakeFiles/c___dateAndTime_.dir/main.cpp.o	68cc977206cc5642
+5	360	1732101893007425695	CMakeFiles/c___dateAndTime_.dir/Date.cpp.o	951816a7b231c5ab
+360	392	1732101893362662846	c___dateAndTime_	9f68d8a75ac7c35e
+7	34	1732101920992801439	CMakeFiles/c___dateAndTime_.dir/Run.cpp.o	7c6c20599be96add
+34	66	1732101921019286511	c___dateAndTime_	9f68d8a75ac7c35e
