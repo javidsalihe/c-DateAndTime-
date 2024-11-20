@@ -55,17 +55,17 @@ build CMakeFiles/c___dateAndTime_.dir/main.cpp.o: CXX_COMPILER__c___dateAndTime_
   OBJECT_DIR = CMakeFiles/c___dateAndTime_.dir
   OBJECT_FILE_DIR = CMakeFiles/c___dateAndTime_.dir
 
-build CMakeFiles/c___dateAndTime_.dir/Date.cpp.o: CXX_COMPILER__c___dateAndTime__unscanned_Debug /Users/javidsalihe/Documents/cPlusePluse/c++(dateAndTime)/Date.cpp || cmake_object_order_depends_target_c___dateAndTime_
-  DEP_FILE = CMakeFiles/c___dateAndTime_.dir/Date.cpp.o.d
+build CMakeFiles/c___dateAndTime_.dir/source/Date.cpp.o: CXX_COMPILER__c___dateAndTime__unscanned_Debug /Users/javidsalihe/Documents/cPlusePluse/c++(dateAndTime)/source/Date.cpp || cmake_object_order_depends_target_c___dateAndTime_
+  DEP_FILE = CMakeFiles/c___dateAndTime_.dir/source/Date.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/c___dateAndTime_.dir
-  OBJECT_FILE_DIR = CMakeFiles/c___dateAndTime_.dir
+  OBJECT_FILE_DIR = CMakeFiles/c___dateAndTime_.dir/source
 
-build CMakeFiles/c___dateAndTime_.dir/Run.cpp.o: CXX_COMPILER__c___dateAndTime__unscanned_Debug /Users/javidsalihe/Documents/cPlusePluse/c++(dateAndTime)/Run.cpp || cmake_object_order_depends_target_c___dateAndTime_
-  DEP_FILE = CMakeFiles/c___dateAndTime_.dir/Run.cpp.o.d
+build CMakeFiles/c___dateAndTime_.dir/source/Run.cpp.o: CXX_COMPILER__c___dateAndTime__unscanned_Debug /Users/javidsalihe/Documents/cPlusePluse/c++(dateAndTime)/source/Run.cpp || cmake_object_order_depends_target_c___dateAndTime_
+  DEP_FILE = CMakeFiles/c___dateAndTime_.dir/source/Run.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/c___dateAndTime_.dir
-  OBJECT_FILE_DIR = CMakeFiles/c___dateAndTime_.dir
+  OBJECT_FILE_DIR = CMakeFiles/c___dateAndTime_.dir/source
 
 
 # =============================================================================
@@ -75,7 +75,7 @@ build CMakeFiles/c___dateAndTime_.dir/Run.cpp.o: CXX_COMPILER__c___dateAndTime__
 #############################################
 # Link the executable c___dateAndTime_
 
-build c___dateAndTime_: CXX_EXECUTABLE_LINKER__c___dateAndTime__Debug CMakeFiles/c___dateAndTime_.dir/main.cpp.o CMakeFiles/c___dateAndTime_.dir/Date.cpp.o CMakeFiles/c___dateAndTime_.dir/Run.cpp.o
+build c___dateAndTime_: CXX_EXECUTABLE_LINKER__c___dateAndTime__Debug CMakeFiles/c___dateAndTime_.dir/main.cpp.o CMakeFiles/c___dateAndTime_.dir/source/Date.cpp.o CMakeFiles/c___dateAndTime_.dir/source/Run.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
   OBJECT_DIR = CMakeFiles/c___dateAndTime_.dir
   POST_BUILD = :
