@@ -39,3 +39,24 @@ void Date::displayDate() const {
     cout << "Month:  " << (getMonth() < 10 ? "0" : "") << getMonth() << endl;
     cout << "Year:  " << getYear() << endl;
 }
+
+void Date::displayDate2()  {
+
+    time_t now = time(nullptr);
+    if (now < Date::taskStartDate) {
+        int daysLeft = Date::daysDifference(now, Date::taskStartDate);
+        cout << "Task hasn't started yet. " << daysLeft << " days left until start." << endl;
+    } else if (now >= Date::taskStartDate && now <= Date::taskEndDate) {
+        int daysLeft = Date::daysDifference(now, Date::taskEndDate);
+        cout << "Task is in progress. " << daysLeft << " days left until deadline." << endl;
+    } else {
+        int daysOverdue = Date::daysDifference(Date::taskEndDate, now);
+        cout << "Task is overdue. " << daysOverdue << " days past the deadline." << endl;
+    }
+}
+
+int Date::daysDifference(time_t startDate, time_t endDate) {
+    return abs(difftime(endDate, startDate) / 86400); // 86400 seconds = one day
+}
+
+

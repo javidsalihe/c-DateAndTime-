@@ -1,5 +1,6 @@
 #ifndef DATE_H
 #define DATE_H
+#include <ctime>
 
 
 
@@ -20,8 +21,15 @@ private:
     int getDay() const;
     int getMonth() const;
     int getYear() const;
-
     void displayDate() const;
+
+
+    tm taskStart = {};
+    tm taskEnd = {};
+    time_t taskStartDate;
+    time_t taskEndDate;
+    void displayDate2();
+    int daysDifference(time_t startDate,time_t endDate);
 
 };
 
